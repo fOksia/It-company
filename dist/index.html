@@ -59,7 +59,7 @@
         </li>
       </ul>
       <div class="header__wrapper-search">
-        <input class="header__search" type="search" placeholder="ПОИСК ПО САЙТУ">
+        <input class="input input--search" type="search" placeholder="ПОИСК ПО САЙТУ">
       </div>
       <div class="header__text">
         <div>Мы гарантируем честные цены!</div>
@@ -155,44 +155,49 @@
       </div>
     </section>
     <section class="consultant">
-      <div class="container">
-        <div class="consultant__wrapper">
-          <div class="consultant__call">
-            <div class="consultant__text">
-              <div>Только у нас! </div>
-              Бесплатная горячая линия по консультированию и удаленому оказанию компьютерной помощи
-            </div>
-            <div class="consultant__number">
-              <div>Возникли проблемы?</div>
-              <a href="tel:88001234567">звоните 8 (800) 123-45-67</a> 
-            </div>
-            <div class="consultant__light-text">
-              или
-              <div>оставьте заявку на выезд специалиста</div>
-            </div>
-            <form class="consultant__form" action="#" method="POST">
-              <input type="text" placeholder="ИМЯ" name="name" required>
-              <input type="tel" placeholder="ТЕЛЕФОН" name="tel" required>
-              <button type="submit">Отправить</button>
-            </form>
-            <div class="consultant__text-reaction">
-              Время реагирования на заявку - от 2 часов. Выезжаем в любой район Москвы и ближайшие пригороды.
-            </div>
+      <div class="consultant__wrapper">
+        <div class="first"></div>
+        <div class="consultant__call">
+          <div class="consultant__text">
+            <div>Только у нас! </div>
+            Бесплатная горячая линия по консультированию и удаленому оказанию компьютерной помощи
           </div>
-          <div class="consultant__consultant">
-            <img src="img/consultant.png" alt="consultant">
-            <div class="consultant__name">
-              Старперов 
-              <div>алексей михайлович</div>
-            </div>
-            <div class="consultant__name">
-              Стаж работы
-              <div>7 лет</div>
-            </div>
-            <img src="img/headphones.png" alt="headphones">
+          <div class="consultant__number">
+            <div>Возникли проблемы?</div>
+            <a href="tel:88001234567">звоните 8 (800) 123-45-67</a> 
+          </div>
+          <div class="consultant__light-text">
+            или
+            <div>оставьте заявку на выезд специалиста</div>
+          </div>
+          <form class="consultant__form" action="#" method="POST">
+            <input class="input input--form" type="text" placeholder="ИМЯ" name="name" required>
+            <input class="input input--form" type="tel" placeholder="ТЕЛЕФОН" name="tel" required>
+            <button class="consultant__btn" type="submit">Отправить</button>
+          </form>
+          <div class="consultant__text-reaction">
+            Время реагирования на заявку - от 2 часов. Выезжаем в любой район Москвы и ближайшие пригороды.
+          </div>
+          <img class="consultant__headphones" src="img/headphones.png" alt="headphones">
+          <img class="consultant__micro" src="img/micro.png" alt="">
+        </div>
+        <div class="consultant__consultant">
+          <div class="consultant__descr">Вас консультирует</div>
+          <img class="consultant__img" src="img/consultant.png" alt="consultant">
+          <div class="consultant__name">
+            <span>Старперов</span> 
+            <div>алексей михайлович</div>
+          </div>
+          <div class="consultant__experience">
+            Стаж работы
+            <div>7 лет</div>
           </div>
         </div>
+        <div class="second"></div>
       </div>
+    </section>
+    <section class="reviews">
+      
     </section>
   </main>
   <footer class="footer">
